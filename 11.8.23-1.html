@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TABLE-2</title>
+    <style>
+        table{
+            width:100%;
+        }
+        table,tr,th,td{
+            border:1px solid black;
+            padding:10px;
+            border-spacing:10px;
+            border-collapse: collapse;
+            border-collapse:separate;
+        }
+        th,td{
+            text-align: center;
+        }
+        caption{
+            caption-side:bottom;
+            caption-side:top;
+        }
+        th,td{
+            height:50px;
+            vertical-align: top;
+        }
+        td{
+            empty-cells: show;
+            empty-cells:hide;
+        }
+    
+    </style>
+</head>
+<body>
+    <table>
+        <caption>List of products</caption>
+        <thead>
+            <tr>
+                <th>SNO</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Sumsung</td>
+                <td>45000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>One plus</td>
+                <td>35000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vivo</td>
+                <td></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2">TOTAL</td>
+                    <td>100000</td>
+                </tr>
+            </tfoot>
+        </thead>
+    </table>
+</body>    
+</html>

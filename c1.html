@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ln="en">
+<head>
+    <title></title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+        h2{
+            text-align: center;
+        }
+        .container{
+            max-width: 400px;
+            margin:50px auto;
+            padding:20px;
+            background-color: aqua;
+            box-shadow: 0px 0px 5px;
+        }
+        .form{
+            margin-bottom: 20px;
+        }
+        .form label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form input{
+            width:100%;
+            padding:5px;
+            font-size:16px;
+            border:1px;
+            border-radius:2px;
+        }
+        .form input[type="submit"]{
+            background-color: brown;
+            cursor:pointer;
+        }
+        .form{
+            input[type="submit"]:hover{
+                background-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <h2>Please Login</h2>
+        </div>
+        <form>
+            <div class="form">
+              <label for="username">Username</label>
+              <input type="text" id="username" name="username"> 
+            </div>
+            <div class="form"></div>
+            <label for="password">password
+
+            </label>
+            <input type="password" id="passward" name="passward">
+        </div>
+        <div class="form">
+            <input type="submit"
+            value="login">
+        </div>
+        </form>
+    </div>
+</body>   
+</html>
